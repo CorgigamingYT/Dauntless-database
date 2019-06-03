@@ -14,6 +14,23 @@ elif choice1 == "embermane":
 2. Armour
 3. Weapons
 """)
+    ember = input("Please choose the required area that needs to be learnt about: ")
+    if ember == "1":
+        pp("So, to business, there are 3 types of Embermane: ",2)
+        pp("""
+1. Lesser Embermane.
+2. Normal Emebrmane.
+3. Bloodfire Embermane.
+""")
+        emberb = input("Please choose the one you are fighting: ")
+        if emberb == "1":
+            pp("So, the Lesser Embermane is the weakest behemeoth and the first thing you fight.",4)
+            pp("""It's stats are as follows:
+Element type: Blaze (Fire)
+Danger level: 1 out of 12
+Recommended armour: Charrogg, Embermane or Hellion
+Recommended weapon: Boreus, Pangar or Skraev
+""",10)
 elif choice1 == "hellion":
      print("c")
 elif choice1 == "boreus":
