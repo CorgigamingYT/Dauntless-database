@@ -15,7 +15,7 @@ elif choice1 == "embermane":
 2. Armour
 3. Weapons
 """,3)
-    ember = input("Please choose the required area that needs to be learnt about: ")
+    ember = input("Please choose the required area that needs to be learned about: ")
     if ember == "1":
         pp("So, to business, there are 3 types of Embermane: ",2)
         pp("""
@@ -25,18 +25,18 @@ elif choice1 == "embermane":
 """,3)
         emberb = input("Please choose the one you are fighting: ")
         if emberb == "1":
-            pp("So, the Lesser Embermane is the weakest behemeoth and the first thing you fight.",4)
-            pp("""It's stats are as follows:
+            pp("So, the Lesser Embermane is the weakest behemoth and the first thing you fight.",4)
+            pp("""Its stats are as follows:
 Element type: Blaze (Fire)
 Danger level: 1
-Recommended armour type: Charrogg, Embermane or Hellion.
+Recommended armor type: Charrogg, Embermane or Hellion.
 Recommended weapon type: Boreus, Pangar or Skraev.
 Recommended weapon power level: 50
-Recommended armour power level: 50
+Recommended armor power level: 50
 """,10)
-            yorn = input("Do you want toi learn about something else? ")
+            yorn = input("Do you want to learn about something else? ")
             if yorn == "yes" or "Yes":
-                os.startfile("dauntless databaseV2.py")
+                os.startfile("dauntless database V2.py")
                 exit()
             if yorn == "no" or "No":
                 pp("Thanks for using this code",2)
@@ -49,11 +49,11 @@ Danger level: 5
 Recommended armour type: Charrogg, Embermane or Hellion.
 Recommended weapon type: Boreus, Pangar or Skraev.
 Recommended weapon power level: 200
-Recommended armour power level: 200
+Recommended armor power level: 200
 """,10)
-            yorn = input("Do you want toi learn about something else? ")
+            yorn = input("Do you want to learn about something else? ")
             if yorn == "yes" or "Yes":
-                os.startfile("dauntless databaseV2.py")
+                os.startfile("dauntless database V2.py")
                 exit()
             if yorn == "no" or "No":
                 pp("Thanks for using this code",2)
@@ -68,9 +68,9 @@ Recommended weapon type: Boreus, Pangar or Skraev.
 Recommended weapon power level: 350 (Normal), 475 (Heroic)
 Recommended armour power level: 350 (Normal), 475 (Heroic)
 """,10)
-            yorn = input("Do you want toi learn about something else? ")
+            yorn = input("Do you want to learn about something else? ")
             if yorn == "yes" or "Yes":
-                os.startfile("dauntless databaseV2.py")
+                os.startfile("dauntless database V2.py")
                 exit()
             if yorn == "no" or "No":
                 pp("Thanks for using this code",2)
