@@ -28,8 +28,10 @@ elif choice1 == "embermane":
             pp("""It's stats are as follows:
 Element type: Blaze (Fire)
 Danger level: 1 out of 12
-Recommended armour: Charrogg, Embermane or Hellion
-Recommended weapon: Boreus, Pangar or Skraev
+Recommended armour: Charrogg, Embermane or Hellion.
+Recommended weapon: Boreus, Pangar or Skraev.
+Recommended weapon power level: 50
+Recommended armour power level: 50
 """,10)
 elif choice1 == "hellion":
      print("c")
