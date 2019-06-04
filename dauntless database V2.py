@@ -22,8 +22,8 @@ elif choice1 == "embermane":
 2. Normal Emebrmane.
 3. Bloodfire Embermane.
 """,3)
-        emberl = input("Please choose the one you are fighting: ")
-        if emberl == "1":
+        emberb = input("Please choose the one you are fighting: ")
+        if emberb == "1":
             pp("So, the Lesser Embermane is the weakest behemeoth and the first thing you fight.",4)
             pp("""It's stats are as follows:
 Element type: Blaze (Fire)
@@ -33,6 +33,8 @@ Recommended weapon: Boreus, Pangar or Skraev.
 Recommended weapon power level: 50
 Recommended armour power level: 50
 """,10)
+        if emberb == "2":
+            pp("So the normal embermane, 
 elif choice1 == "hellion":
      print("c")
 elif choice1 == "boreus":
