@@ -6,7 +6,7 @@ def pp (text,pause):
 Behemoths = ["Charrogg", "Embermane", "Hellion", "Boreus", "Pangar", "Skraev", "Drask", "Nayzaga", "Stormclaw", "Kharabak", "Koshai", "Skarn", "Gnasher", "Quillshot", "Shrike", "Riftstalker", "Shrowd", "Rezakiri", "Valomyr"]
 choice1  = input("Please enter the type of behemoth you are fighting: ").lower()
 if choice1 == "charrogg":
-    pp("a",1)
+    pp("Welocome to the world of the Charrogg.",2)
 elif choice1 == "embermane":
     pp("Welcome to the world of the embermane.",2)
     pp("Do you want learn about the...",2)
@@ -75,7 +75,14 @@ Recommended armour power level: 350 (Normal), 475 (Heroic)
             if yorn == "no" or "No":
                 pp("Thanks for using this code",2)
                 exit()
-#Embermane Done
+    if ember == "2":
+        pp("So then you have chosen to learn about the embermane armour.",3)
+        pp("""The armour consists of:
+The Fiery Helm,
+The Fiery Breastplate,
+The Fiery Gauntlets and
+The Fiery Greaves
+""")
 elif choice1 == "hellion":
      print("c")
 elif choice1 == "boreus":
@@ -110,3 +117,8 @@ elif choice1 == "rezakiri":
     print("r")
 elif choice1 ==  "valomyr":
     print("s")
+elif choice1 == "shelby":
+    pp("R1P 5H3L8Y.",4)
+    pp("*Memeorial anthem.*",4)
+    pp("You will forever be remmbered",3)
+    pp("R1P, Now and forever more.",3)
