@@ -82,13 +82,17 @@ The Fiery Helm,
 The Fiery Breastplate,
 The Fiery Gauntlets and
 The Fiery Greaves
-""")
+""",6)
 elif choice1 == "hellion":
-     print("c")
+     pp("Welcome to the world at the all-powerful hellion, master of fire and blaze.",4)
 elif choice1 == "boreus":
-    print("d")
+    pp("""The mighty Boreus is the maestro of frozen mayhem,
+controlling a pack of beastly minions with its powerful psionic abilities
+and manipulating frost aether to attack foes and defend itself.""",7)
 elif  choice1 == "pangar":
-    print("e")
+    pp("""A rolling avalanche given living form,
+the Pangar is a heavily armoured Behemoth that uses its mighty tusks to battle Slayers
+and burrow into islands seeking frost archonite to consume.""",7)
 elif choice1 == "skraev":
     print("f")
 elif choice1 == "drask":
