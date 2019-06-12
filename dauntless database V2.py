@@ -38,23 +38,23 @@ It's stats are as follows,
     "Fiery Helm":"""The Fiery Helm is a piece of craftable armour in Dauntless.
 It is crafted from Embermane reagents, and is part of the Embermane Armour set.
 It's stats are as follows:
-Level   Resistance     Crafting Materials
-Base    25	       Rams (x40), [[|]] (x1), [[|]] (x1)
-+1      35	       Rams (x10), Blaze Orb (x1)
+Level   Resistance  Crafting Materials
+Base         25	Rams (x40), [[|]] (x1), [[|]] (x1)
++1             35	Rams (x10), Blaze Orb (x1)
 +2	45             Rams (x15), Blaze Orb (x1)
 +3	55             Rams (x25), Blaze Orb (x2)
 +4	65             Rams (x35), Blaze Orb (x2)
 +5	75             Rams (x40), Blaze Orb (x2)
 +6	85             Rams (x55), Dull Arcstone (x3), Smoldering Bloodhide (x2), Blaze Orb (x3)
 +7	95             Rams (x60), Dull Arcstone (x4), Blaze Orb (x3)
-+8	105            Rams (x75), Dull Arcstone (x5), Shining Arcstone (x5), Blaze Orb (x3)
-+9	115            Rams (x90), Dull Arcstone (x6), Shining Arcstone (x10), Blaze Orb (x4)
-+10	125            Rams (x100), Dull Arcstone (x7), Shining Arcstone (x15), Bloodsoul Shard (x1), Smoldering Bloodhide (x3), Blaze Orb (x4)
-+11	127.5          Rams (x150), Peerless Arcstone (x5)
-+12	130            Rams (x150), Peerless Arcstone (x6)
-+13	132.5          Rams (x150), Peerless Arcstone (x7)
-+14	135            Rams (x150), Peerless Arcstone (x8)
-+15	137.5          Rams (x150), Peerless Arcstone (x9)"""
++8	105           Rams (x75), Dull Arcstone (x5), Shining Arcstone (x5), Blaze Orb (x3)
++9	115           Rams (x90), Dull Arcstone (x6), Shining Arcstone (x10), Blaze Orb (x4)
++10	125           Rams (x100), Dull Arcstone (x7), Shining Arcstone (x15), Bloodsoul Shard (x1), Smoldering Bloodhide (x3), Blaze Orb (x4)
++11	127.5        Rams (x150), Peerless Arcstone (x5)
++12	130           Rams (x150), Peerless Arcstone (x6)
++13	132.5        Rams (x150), Peerless Arcstone (x7)
++14	135           Rams (x150), Peerless Arcstone (x8)
++15	137.5        Rams (x150), Peerless Arcstone (x9)"""
 	}
 Behemoths = ["Charrogg", "Embermane", "Hellion", "Boreus", "Pangar", "Skraev", "Drask", "Nayzaga", "Stormclaw", "Kharabak", "Koshai", "Skarn", "Gnasher", "Quillshot", "Shrike", "Riftstalker", "Shrowd", "Rezakiri", "Valomyr"]
 choice1  = input("Please enter the type of behemoth you are fighting: ").lower()
